@@ -1,0 +1,28 @@
+Source: darknet-nnpack
+Section: libs
+Priority: optional
+Maintainer: Bofu Chen (bafu) <bofu@dt42.io>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.8
+Homepage: https://github.com/digitalbrain79/darknet-nnpack
+Vcs-Git: https://github.com/digitalbrain79/darknet-nnpack.git
+
+Package: darknet
+Architecture: armhf
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Darknet: Open Source Neural Networks in C
+ Darknet is an open source neural network framework written in C and
+ CUDA. It is fast, easy to install, and supports CPU and GPU
+ computation.
+ .
+ This package is a patched version of binary with NNPACK speedup.
+
+Package: libdarknet
+Architecture: armhf
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Darknet: Open Source Neural Networks in C
+ Darknet is an open source neural network framework written in C and
+ CUDA. It is fast, easy to install, and supports CPU and GPU
+ computation.
+ .
+ This package is a patched version of library with NNPACK speedup.
