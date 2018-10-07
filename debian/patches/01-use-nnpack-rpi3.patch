@@ -1,4 +1,5 @@
-Make Python wrapper works based on commit 60ecf9e.
+Description: Make Python wrapper works based on commit 60ecf9e.
+Author: Bofu Chen (bafu) <bofu@dt42.io>
 diff --git a/Makefile b/Makefile
 index 19bfcae..3c76292 100644
 --- a/Makefile
